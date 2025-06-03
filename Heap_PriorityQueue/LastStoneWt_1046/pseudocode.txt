@@ -1,0 +1,7 @@
+#Pseudocode for Last Stone Weight
+1. Max-heapify the array(negate stones to simulate max-heap in a min-heap library)
+2. While heap has at least 2 stones
+    1. Pop two largest stones; assign larger to y smaller to x
+    2. Check if x == y : continue to next iteration
+    3. Check if x != y : compute y - x and push result back into the heap
+3. Return remaining stone in heap or 0 if empty
