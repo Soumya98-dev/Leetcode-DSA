@@ -1,0 +1,6 @@
+# 215. Kth Largest Element in an Array
+1. Max heapify the Array
+2. Loop till length of the array
+	1. make the value of (k - 1)
+	2. find that value in the array
+3. return the value
